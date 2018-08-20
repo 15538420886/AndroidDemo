@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">oyyf</string>
+    <string name="action_settings">设置</string>
+    <string name="login_success">登录成功</string>
+    <string name="login_fail">登录失败</string>
+    <string name="account_empty">账户不可以为空！</string>
+    <string name="pwd_empty">密码不可以为空！</string>
+    <string name="pwd_not_the_same">密码不一致！</string>
+    <string name="resetpwd_fail">重置密码失败！</string>
+    <string name="resetpwd_success">重置密码成功了</string>
+    <string name="pwd_not_fit_user">密码或账户错了</string>
+    <string name="name_not_exist">用户名不存在</string>
+    <string name="pwd_new_empty">密码不能为空</string>
+    <string name="pwd_check_empty">确认密码失败</string>
+    <string name="name_already_exist">该用户已经存在</string>
+    <string name="register_fail">注册失败</string>
+    <string name="register_success">注册成功</string>
+    <string name="pwd2_empty">确认密码不能为空</string>
+</resources>

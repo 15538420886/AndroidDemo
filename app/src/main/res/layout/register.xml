@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/resetpwd_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="118dp"
+        android:ems="10"
+        android:hint="请输入您的用户名"
+        android:textAlignment="center"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/resetpwd_pwd1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/resetpwd_name"
+        android:layout_alignRight="@+id/resetpwd_name"
+        android:layout_below="@+id/resetpwd_name"
+        android:layout_marginTop="39dp"
+        android:ems="10"
+        android:hint="请输入密码"
+        android:textAlignment="center"
+        android:inputType="textPassword" />
+
+    <EditText
+        android:id="@+id/resetpwd_pwd2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/resetpwd_pwd1"
+        android:layout_alignStart="@+id/resetpwd_pwd1"
+        android:layout_below="@+id/resetpwd_pwd1"
+        android:layout_marginTop="43dp"
+        android:ems="10"
+        android:hint="请确认您的密码"
+        android:textAlignment="center"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/confirm_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/resetpwd_pwd2"
+        android:layout_alignStart="@+id/resetpwd_pwd2"
+        android:layout_below="@+id/resetpwd_pwd2"
+        android:layout_marginTop="73dp"
+        android:text="确定"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/conclaButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/confirm_button"
+        android:layout_alignEnd="@+id/resetpwd_pwd2"
+        android:layout_alignRight="@+id/resetpwd_pwd2"
+        android:text="取消" />
+</RelativeLayout>

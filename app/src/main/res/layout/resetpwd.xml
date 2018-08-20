@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/reset_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="67dp"
+        android:ems="10"
+        android:hint="请输入用户名"
+        android:textAlignment="center"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/reset_pwd1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/reset_name"
+        android:layout_alignStart="@+id/reset_name"
+        android:layout_below="@+id/reset_name"
+        android:layout_marginTop="19dp"
+        android:ems="10"
+        android:textAlignment="center"
+        android:hint="请输入旧密码"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/reset_pwdnew"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/reset_pwd1"
+        android:layout_alignStart="@+id/reset_pwd1"
+        android:layout_below="@+id/reset_pwd1"
+        android:layout_marginTop="17dp"
+        android:ems="10"
+        android:textAlignment="center"
+        android:hint="请输入新密码"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/confirmereset_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/reset_pwdnew"
+        android:layout_alignStart="@+id/reset_pwdnew"
+        android:layout_below="@+id/reset_pwdnew2"
+        android:layout_marginTop="55dp"
+        android:text="确定" />
+
+    <Button
+        android:id="@+id/canclereset_pwd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/reset_pwdnew"
+        android:layout_alignRight="@+id/reset_pwdnew"
+        android:layout_alignTop="@+id/confirmereset_btn"
+        android:text="取消" />
+
+    <EditText
+        android:id="@+id/reset_pwdnew2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/confirmereset_btn"
+        android:layout_alignStart="@+id/confirmereset_btn"
+        android:layout_below="@+id/reset_pwdnew"
+        android:layout_marginTop="17dp"
+        android:ems="10"
+        android:textAlignment="center"
+        android:hint="请确认新密码"
+        android:inputType="textPersonName" />
+</RelativeLayout>
